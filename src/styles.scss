@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+// body {
+//     background-color: #f8f9fa;
+//   }
+  
+//   .card {
+//     transition: transform 0.2s;
+    
+//     &:hover {
+//       transform: scale(1.05);
+//     }
+//   }
+  
+body {
+    margin: 0; // Remove margens padrão do body
+    padding: 0;
+  }
+  
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .col-md-8, .col-md-4 {
+    padding: 10px; // Adicione um pouco de padding se necessário
+  }
+  
