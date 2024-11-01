@@ -1,14 +1,7 @@
-<div class="container-fluid mt-5"> <!-- Mude para container-fluid -->
+<div class="container-fluid">
   <app-header></app-header>
 
-  <div class="row">
-    <div class="col-md-8">
-      <app-product-list></app-product-list> <!-- Lista de produtos -->
-    </div>
-    <div class="col-md-4">
-      <app-cart></app-cart> <!-- Carrinho de compras -->
-    </div>
-  </div>
+  <router-outlet></router-outlet> 
 
   <app-footer></app-footer>
 </div>
